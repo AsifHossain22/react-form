@@ -1,0 +1,16 @@
+import React from "react";
+import Grandpa from "./Grandpa";
+import "./FamilyTree.css";
+
+const FamilyTree = () => {
+  const assests = "Diamond";
+
+  return (
+    <div className="family-tree">
+      <h1>Family Tree</h1>
+      <Grandpa></Grandpa>
+    </div>
+  );
+};
+
+export default FamilyTree;
